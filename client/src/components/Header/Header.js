@@ -1,6 +1,6 @@
 import React from 'react';
-import Hamburger from '../../common/image/Hamburger';
 import logo from '../../common/image/original/logo.svg';
+import hamburger from '../../common/image/original/hamburger.svg';
 const Header = () => {
   return (
     <div>
@@ -9,8 +9,7 @@ const Header = () => {
         <h1>Coz shopping</h1>
       </div>
       <div>
-        <Hamburger />
-        <img src="" alt="햄버거 버튼" />
+        <img src={hamburger} alt="햄버거 버튼" />
       </div>
     </div>
   );
