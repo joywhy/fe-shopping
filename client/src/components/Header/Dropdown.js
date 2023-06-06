@@ -5,7 +5,11 @@ import { Triangle } from './Dropdown.styled';
 import productIconUrl from '../../common/image/productIcon.svg';
 import bookmarkIconUrl from '../../common/image/bookmarkIcon.svg';
 import { Container, DropUl } from './Dropdown.styled';
+
 const Dropdown = () => {
+  //드롭다운을 클릭했을 때 ->꺼짐 isOpen False
+  //드롭다운 아닌곳을 클릭했을하고 isopen 이 true일 때 -> isOpen False
+
   return (
     <Container>
       <Triangle />

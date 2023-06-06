@@ -10,7 +10,6 @@ export const Container = styled.div`
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,7 +17,9 @@ export const Container = styled.div`
 
   padding: 0 76px;
   background-color: white; //var(--white)
-  border: 1px solid rebeccapurple;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+
+  //border: 1px solid rebeccapurple;
   //padding: var(--main-padding); //flex 시 padding 먹지 않음? --padding
 `;
 export const LogoContainer = styled.div`
