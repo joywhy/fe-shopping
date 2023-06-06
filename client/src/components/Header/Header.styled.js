@@ -2,6 +2,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: var(--main-width);
   height: var(--main-height);
+  position: sticky;
+  z-index: 1;
 
   grid-column-start: 1;
   grid-column-end: 4;
@@ -12,8 +14,10 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
   border: 1px solid red;
   padding: 0 76px;
+  background-color: var(--white);
   //padding: var(--main-padding); //flex 시 padding 먹지 않음? --padding
 `;
 export const LogoContainer = styled.div`
@@ -21,5 +25,6 @@ export const LogoContainer = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
   //border: 1px solid red;
 `;
