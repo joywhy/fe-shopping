@@ -2,6 +2,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 76px 1fr 76px; //var(--main-padding)
+  //grid-template-columns: var(--main-padding) 1fr var(--main-padding); //var(--main-padding)
 `;
 
 export const MainContainer = styled.div`

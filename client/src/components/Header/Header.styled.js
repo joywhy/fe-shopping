@@ -13,7 +13,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   border: 1px solid red;
-  //padding: 0 76px; //flex 시 padding 먹지 않음?
+  padding: 0 76px;
   //padding: var(--main-padding); //flex 시 padding 먹지 않음? --padding
 `;
 export const LogoContainer = styled.div`
@@ -21,4 +21,5 @@ export const LogoContainer = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
+  //border: 1px solid red;
 `;
