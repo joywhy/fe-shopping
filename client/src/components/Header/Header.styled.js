@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: var(--main-width);
-  height: var(--main-height);
+  width: 100%; //var(--main-width)
+  height: 80px; //var(--main-height)
   position: sticky;
   z-index: 1;
 
@@ -16,9 +16,9 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  //border: 1px solid red;
   padding: 0 76px;
-  background-color: var(--white);
+  background-color: white; //var(--white)
+  border: 1px solid rebeccapurple;
   //padding: var(--main-padding); //flex 시 padding 먹지 않음? --padding
 `;
 export const LogoContainer = styled.div`
@@ -27,7 +27,16 @@ export const LogoContainer = styled.div`
   display: flex;
   flex-direction: row;
   cursor: pointer;
-  //border: 1px solid red;
+
+  > img {
+    width: 55px;
+    gap: 12px;
+  }
+  > h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: auto;
+  }
 `;
 
 export const HamBurgerContainer = styled.div`
@@ -35,9 +44,9 @@ export const HamBurgerContainer = styled.div`
   height: 100%;
   position: relative;
   display: flex; //엡솔루투 무시하나?
-  //border: 1px solid red;
 `;
 export const Hamburger = styled.img`
+  width: 30px;
   display: block;
   cursor: pointer;
 `;

@@ -4,7 +4,6 @@ export const Container = styled.div`
   position: absolute;
   top: 50px;
   right: -70px;
-  //border: 1px solid red;
   filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.1));
 `;
 export const Triangle = styled.div`
@@ -35,13 +34,16 @@ export const DropUl = styled.ul`
   background-color: white;
   border-radius: 12px;
 
-  > li {
+  li {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 180px;
     height: 25px;
     font-size: 16px;
     line-height: 25px;
     margin: 10px 13px;
-    //  border: 1px solid red;
+    // border: 1px solid red;
+    cursor: pointer;
   }
 `;

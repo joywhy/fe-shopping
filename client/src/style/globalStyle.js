@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
   --main-padding: 76px;
 //header height 80px / 패딩 값 0 76px
 }
-//리셋 스타일링
 html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
