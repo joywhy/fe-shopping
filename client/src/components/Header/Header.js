@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../../common/image/original/logo.svg';
-import hamburger from '../../common/image/original/hamburger.svg';
+import logo from '../../common/image/logo.svg';
+import hamburger from '../../common/image/hamburger.svg';
 const Header = () => {
   return (
     <div>
