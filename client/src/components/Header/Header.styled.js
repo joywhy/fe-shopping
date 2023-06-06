@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 export const Container = styled.div`
   width: var(--main-width);
   height: var(--main-height);
@@ -15,7 +16,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  border: 1px solid red;
+  //border: 1px solid red;
   padding: 0 76px;
   background-color: var(--white);
   //padding: var(--main-padding); //flex 시 padding 먹지 않음? --padding
@@ -27,4 +28,16 @@ export const LogoContainer = styled.div`
   flex-direction: row;
   cursor: pointer;
   //border: 1px solid red;
+`;
+
+export const HamBurgerContainer = styled.div`
+  width: fit-content;
+  height: 100%;
+  position: relative;
+  display: flex; //엡솔루투 무시하나?
+  //border: 1px solid red;
+`;
+export const Hamburger = styled.img`
+  display: block;
+  cursor: pointer;
 `;

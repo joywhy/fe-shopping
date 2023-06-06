@@ -55,7 +55,7 @@ html, body, div, span, applet, object, iframe,
     width: 100vw;
 }
   ol, ul {
-    list-style: none;
+    list-style: none; //왜 적용안되는것임. ! 
   }
   blockquote, q {
     quotes: none;
