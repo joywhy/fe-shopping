@@ -28,11 +28,11 @@ export const LogoContainer = styled.div`
   flex-direction: row;
   cursor: pointer;
 
-  > img {
+  img {
     width: 55px;
     gap: 12px;
   }
-  > h1 {
+  h1 {
     font-size: 32px;
     font-weight: 700;
     margin: auto;

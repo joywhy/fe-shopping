@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-
+import { Link } from 'react-router-dom';
 import logo from '../../common/image/logo.svg';
 import hamburger from '../../common/image/hamburger.svg';
 import {
@@ -11,7 +11,7 @@ import {
 import Dropdown from './Dropdown';
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   //const hamburgerRef = useRef(null);
 
   const dropdownHandler = () => {
@@ -20,10 +20,12 @@ const Header = () => {
 
   return (
     <Container>
-      <LogoContainer>
-        <img src={logo} alt="로고" />
-        <h1>Coz shopping</h1>
-      </LogoContainer>
+      <Link to="/products/list">
+        <LogoContainer>
+          <img src={logo} alt="로고" />
+          <h1>Coz shopping</h1>
+        </LogoContainer>
+      </Link>
 
       <HamBurgerContainer>
         <Hamburger
