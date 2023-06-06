@@ -11,6 +11,8 @@ export const GlobalStyle = createGlobalStyle`
   --gray-10: #DFDFDF; //--color--숫자 숫자의 의미를 모르겠습니다.
 
   --main-width: 1280px;
+  --main-heigth: 80px;
+  --main-padding : 76px;
 //header height 80px / 패딩 값 0 76px
 }
 //리셋 스타일링
