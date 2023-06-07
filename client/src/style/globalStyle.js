@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   --black: #000000;
   --yellow: #FFD361;
   --gray-10: #DFDFDF; //--color--숫자 숫자의 의미를 모르겠습니다.
-
+  --gray-50: #888888;
   --main-width: 1280px;
   --main-heigth: 80px;
   --main-padding: 76px;
@@ -37,6 +37,7 @@ html, body, div, span, applet, object, iframe,
     box-sizing: border-box;
     text-decoration: none;
     color: var(--black);
+    font-family: 'Inter';
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure, 
