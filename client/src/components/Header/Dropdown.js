@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Triangle } from './Dropdown.styled';
 import productIconUrl from '../../common/image/productIcon.svg';
-import bookmarkIconUrl from '../../common/image/bookmarkIcon.svg';
+import bookmarkIconUrl from '../../common/image/star.svg';
 import { Container, DropUl } from './Dropdown.styled';
 
 const Dropdown = ({ dropdownHandler, hamburgerRef }) => {
