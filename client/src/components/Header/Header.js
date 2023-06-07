@@ -12,7 +12,7 @@ import Dropdown from './Dropdown';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  //const hamburgerRef = useRef(null);
+  const hamburgerRef = useRef(null);
 
   const dropdownHandler = () => {
     setIsOpen(!isOpen);
@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <Container>
-      <Link to="/products/list">
+      <Link to="/">
         <LogoContainer>
           <img src={logo} alt="로고" />
           <h1>Coz shopping</h1>
@@ -31,10 +31,15 @@ const Header = () => {
         <Hamburger
           src={hamburger}
           alt="햄버거 버튼"
-          //ref={hamburgerRef}
+          ref={hamburgerRef}
           onClick={dropdownHandler}
         />
-        {isOpen ? <Dropdown /> : null}
+        {isOpen ? (
+          <Dropdown
+            dropdownHandler={dropdownHandler}
+            hamburgerRef={hamburgerRef}
+          />
+        ) : null}
       </HamBurgerContainer>
     </Container>
   );
