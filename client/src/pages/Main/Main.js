@@ -4,7 +4,7 @@ import Card from '../../components/Card/Card';
 import data from '../../common/data/data.json';
 const Container = styled.div`
   width: 100%;
-  height: 600px;
+  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -17,7 +17,7 @@ const H2 = styled.h2`
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  border: 1px solid red;
+  //border: 1px solid red;
   //align-items: flex-start;
 `;
 const Main = () => {
@@ -27,7 +27,7 @@ const Main = () => {
     <Container>
       <H2>상품리스트</H2>
       {datas.map((data, idx) => (
-        <Card key={idx} data={data} />
+        <Card key={idx} data={data} isMarked={false} />
       ))}
     </Container>
   );
