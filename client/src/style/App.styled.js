@@ -11,4 +11,5 @@ export const MainContainer = styled.div`
   grid-row-start: 2;
   grid-row-end: 3;
   border: 1px solid red;
+  padding-top: 24px;
 `;

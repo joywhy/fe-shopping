@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import BookmarkIcon from '../BookmarkIcon/BookmarkIcon';
 
 const Container = styled.div`
   width: 264px;
@@ -8,8 +9,13 @@ const Container = styled.div`
   border: 1px solid red;
 `;
 
-const Card = () => {
-  return <Container>card</Container>;
+const Card = (props) => {
+  return (
+    <Container>
+      card
+      <BookmarkIcon isMarked={true} />
+    </Container>
+  );
 };
 
 export default Card;
