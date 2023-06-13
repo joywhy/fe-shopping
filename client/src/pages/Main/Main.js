@@ -27,7 +27,7 @@ const Main = () => {
     <Container>
       <H2>상품리스트</H2>
       {datas.map((data, idx) => (
-        <Card key={idx} data={data} />
+        <Card key={idx} data={data} isMarked={false} />
       ))}
     </Container>
   );

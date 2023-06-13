@@ -42,7 +42,7 @@ const Card = (props) => {
     <Container>
       {/* 사진 */}
       <ModalBox imgUrl={imgUrl}>
-        <BookmarkIcon isMarked={true} />
+        <BookmarkIcon isMarked={props.isMarked} />
       </ModalBox>
 
       {/* 하단 텍스트 */}
