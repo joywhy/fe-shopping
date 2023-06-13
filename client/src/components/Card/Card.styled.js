@@ -16,24 +16,21 @@ export const ModalBox = styled.div`
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position: relative;
-  //border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
   cursor: pointer;
+  padding: 12px;
 `;
-// export const Star = styled(BookmarkIcon)`
-//   position: absolute;
-//   right: 0;
-//   bottom: 0;
-//   height: fit-content;
-//   border: 1px solid red;
-// `;
 
 export const TextBox = styled.div`
   width: 100%;
   height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 6px;
 `;
 export const Title = styled.h3`
   font-family: 'Inter';
@@ -44,4 +41,18 @@ export const Title = styled.h3`
 `;
 export const SmallTitle = styled(Title)`
   ${(props) => (props.isproduct ? 'color: var(--pointColor);' : null)}
+`;
+export const DescBox = styled.div`
+  //border: 1px solid red;
+  width: 100%;
+  height: auto;
+`;
+export const Desc = styled(Title)`
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  //border: 1px solid red;
+  //position: absolute;
+
+  text-align: ${(props) => props.position || 'right'};
 `;
