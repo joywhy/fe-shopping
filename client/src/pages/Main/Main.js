@@ -9,6 +9,7 @@ const Container = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  gap: 62px;
 `;
 const H2 = styled.h2`
   width: 100%;
