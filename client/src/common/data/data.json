@@ -1,50 +1,122 @@
 [
-    {
-      "id": 0,
-      "type": "Product",
-      "title": "두루마리 휴지",
-      "sub_title": null,
-      "brand_name": null,
-      "price": 2500,
-      "discountPercentage": 35,
-      "image_url": "ramdomimage/1",
-      "brand_image_url": null,
-      "follower": null
-    },
-    {
-      "id": 1,
-      "type": "Category",
-      "title": "cat",
-      "sub_title": null,
-      "brand_name": null,
-      "price": null,
-      "discountPercentage": null,
-      "image_url": "ramdomimage/2",
-      "brand_image_url": null,
-      "follower": null
-    },
-    {
-      "id": 2,
-      "type": "Exhibition",
-      "title": "discount",
-      "sub_title": "good price",
-      "brand_name": null,
-      "price": null,
-      "discountPercentage": null,
-      "image_url": "ramdomimage/3",
-      "brand_image_url": null,
-      "follower": null
-    },
-    {
-      "id": 3,
-      "type": "Brand",
-      "title": null,
-      "sub_title": null,
-      "brand_name": "codestates",
-      "price": null,
-      "discountPercentage": null,
-      "image_url": null,
-      "brand_image_url": "ramdomimage/4",
-      "follower": 2143
-    }
-  ]
+  {
+    "id": 32,
+    "type": "Brand",
+    "title": null,
+    "sub_title": null,
+    "brand_name": "버버리",
+    "price": null,
+    "discountPercentage": null,
+    "image_url": null,
+    "brand_image_url": "https://images.unsplash.com/photo-1445633814773-e687a5de9baa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "follower": 4791
+  },
+  {
+    "id": 49,
+    "type": "Product",
+    "title": "윌슨 농구공",
+    "sub_title": null,
+    "brand_name": null,
+    "price": "22300",
+    "discountPercentage": 5,
+    "image_url": "https://images.unsplash.com/photo-1523142096306-cca37b5aa001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "brand_image_url": null,
+    "follower": null
+  },
+  {
+    "id": 94,
+    "type": "Exhibition",
+    "title": "한 끼 준비 간단하게 끝",
+    "sub_title": "후기 폭발 간편식품 모음",
+    "brand_name": null,
+    "price": null,
+    "discountPercentage": null,
+    "image_url": "https://images.unsplash.com/photo-1627662168806-efa33a7cda86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80",
+    "brand_image_url": null,
+    "follower": null
+  },
+  {
+    "id": 20,
+    "type": "Product",
+    "title": "Apple Studio Display",
+    "sub_title": null,
+    "brand_name": null,
+    "price": "2630000",
+    "discountPercentage": 5,
+    "image_url": "https://images.unsplash.com/photo-1647779058330-848fa687fcb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "brand_image_url": null,
+    "follower": null
+  },
+  {
+    "id": 50,
+    "type": "Exhibition",
+    "title": "취미부자 기획전",
+    "sub_title": "취미 시작 세트 최대 80% 할인",
+    "brand_name": null,
+    "price": null,
+    "discountPercentage": null,
+    "image_url": "https://images.unsplash.com/photo-1456086272160-b28b0645b729?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
+    "brand_image_url": null,
+    "follower": null
+  },
+  {
+    "id": 29,
+    "type": "Product",
+    "title": "에어팟 맥스",
+    "sub_title": null,
+    "brand_name": null,
+    "price": "110520",
+    "discountPercentage": 50,
+    "image_url": "https://images.unsplash.com/photo-1625245488600-f03fef636a3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+    "brand_image_url": null,
+    "follower": null
+  },
+  {
+    "id": 35,
+    "type": "Brand",
+    "title": null,
+    "sub_title": null,
+    "brand_name": "코카콜라",
+    "price": null,
+    "discountPercentage": null,
+    "image_url": null,
+    "brand_image_url": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "follower": 2003
+  },
+  {
+    "id": 97,
+    "type": "Brand",
+    "title": null,
+    "sub_title": null,
+    "brand_name": "윌슨",
+    "price": null,
+    "discountPercentage": null,
+    "image_url": null,
+    "brand_image_url": "https://images.unsplash.com/photo-1530915534664-4ac6423816b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "follower": 1388
+  },
+  {
+    "id": 28,
+    "type": "Category",
+    "title": "미술",
+    "sub_title": null,
+    "brand_name": null,
+    "price": null,
+    "discountPercentage": null,
+    "image_url": "https://images.unsplash.com/photo-1537884557178-342a575d7d16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+    "brand_image_url": null,
+    "follower": null
+  },
+  {
+    "id": 98,
+    "type": "Exhibition",
+    "title": "사무 용품 전문관",
+    "sub_title": "업무 효율 극대화!",
+    "brand_name": null,
+    "price": null,
+    "discountPercentage": null,
+    "image_url": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80",
+    "brand_image_url": null,
+    "follower": null
+  }
+]
