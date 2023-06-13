@@ -9,7 +9,7 @@ const Container = styled.div`
 const Main = () => {
   return (
     <Container>
-      main
+      <h2>상품리스트</h2>
       <Card />
       <BookmarkIcon isMarked={true} />
     </Container>
