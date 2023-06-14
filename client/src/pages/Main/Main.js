@@ -8,8 +8,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 62px;
+  justify-content: space-between;
 `;
 const H2 = styled.h2`
   width: 100%;
@@ -18,16 +17,16 @@ const H2 = styled.h2`
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  //border: 1px solid red;
-  //align-items: flex-start;
+  margin-bottom: 12px;
 `;
+
 const Main = () => {
   const [datas, setDates] = useState(data);
-
+  const itemPerRow = 4;
   return (
     <Container>
       <H2>상품리스트</H2>
-      {datas.map((data, idx) => (
+      {datas.slice(0, itemPerRow).map((data, idx) => (
         <Card key={idx} data={data} isMarked={false} />
       ))}
     </Container>

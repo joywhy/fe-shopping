@@ -10,7 +10,6 @@ export const Triangle = styled.div`
   position: absolute;
   top: 0;
   left: 50%;
-
   width: 0;
   height: 0;
   border-bottom: 18px solid white;
@@ -19,7 +18,6 @@ export const Triangle = styled.div`
 `;
 
 export const DropUl = styled.ul`
-  //리셋이 안되서 직접함 왜 안된느지는 몰루
   list-style: none;
   margin: 0;
   padding: 0;
@@ -28,7 +26,6 @@ export const DropUl = styled.ul`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   width: fit-content;
   height: fit-content;
   background-color: white;
