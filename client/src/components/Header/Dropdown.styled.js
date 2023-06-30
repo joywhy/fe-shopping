@@ -44,3 +44,22 @@ export const DropUl = styled.ul`
     cursor: pointer;
   }
 `;
+
+// const PromiseFactory = (string, delay) => {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log(string);
+//       resolve(string);
+//     }, delay);
+//   });
+// };
+
+// const TaskFunction = async (taskList) => {
+//   for (const task of taskList) {
+//     await task('hi', 1000);
+//   }
+// };
+
+// const asyncTasks = [PromiseFactory, PromiseFactory, PromiseFactory];
+
+// TaskFunction(asyncTasks);

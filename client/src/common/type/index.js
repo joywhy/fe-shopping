@@ -6,4 +6,4 @@ export const CardType = {
   BRAND: 'Brand',
 };
 
-//Object.freeze(CardType);
+Object.freeze(CardType);
