@@ -25,7 +25,7 @@ const Main = () => {
   const itemPerRow = 4;
   return (
     <Container>
-      <H2>상품리스트</H2>
+      <H2>상품리스트 깃모지 설치 </H2>
       {datas.slice(0, itemPerRow).map((data, idx) => (
         <Card key={idx} data={data} isMarked={false} />
       ))}
